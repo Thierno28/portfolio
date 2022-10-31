@@ -585,7 +585,7 @@ input[type="email"]::placeholder,
 .hero-section .image .avatar {
   position: relative;
   left: 0;
-  top: 103px;
+  top: 0px;
   border-bottom-left-radius: 16px;
 }
 @keyframes enter-hero-cover {
@@ -1428,7 +1428,7 @@ input[type="email"]::placeholder,
     right: 0;
   }
   .hero-section .image .avatar {
-    top: 104px;
+    top: 0;
     width: 213px;
   }
   /* SERVICES */

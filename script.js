@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             for (var i = 0; i < formElements.length; i++) {
                 if (formElements[i].name && formElements[i].value) {
                     formData[formElements[i].name] = formElements[i].value
-                }
+                } 
             }
             var raw = JSON.stringify(formData);
             var requestOptions = {
